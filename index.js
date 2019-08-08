@@ -12,11 +12,11 @@ if (card1 + card2 + card3 > 21) {
 var grade = parseInt(prompt("Enter your grade"));
 if (grade >= 90 || grade === 100) {
     alert("A");
-} else if (grade >= 80 || grade === 89){
+} else if (grade >= 80 && grade === 89){
     alert("B");
-} else if (grade >= 70 || grade === 79) {
+} else if (grade >= 70 && grade === 79) {
     alert("C");
-} else if (grade >= 60 || grade === 69) {
+} else if (grade >= 60 && grade === 69) {
     alert("D");
 }else if (grade <= 59) {
     alert("F");
